@@ -1,4 +1,3 @@
-
 public class Demo02{
   public static void main(String[] args) {
     Anima a = new Anima();
@@ -9,31 +8,10 @@ public class Demo02{
     b.setAge(1);
     a.setId("11101");
     b.setId("11101");
-    a.equals(b);
+
+    System.out.println(a.toString());
+    System.out.println(a.equals(b));
+    System.out.println(b.equals(a));
   }  
    
-}
-class Anima{
-  private String name;
-  private int age;
-  private String id;
-  
-  public void setAge(int age) {
-    this.age = age;
-  }
-  public void setId(String id) {
-    this.id = id;
-  }
-  public int getAge() {
-    return age;
-  }
-  public String getId() {
-    return id;
-  }
-  public String getName() {
-      return name;
-  }
-  public void setName(String name) {
-    this.name = name;
-  }
 }
