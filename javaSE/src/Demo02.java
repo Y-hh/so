@@ -1,6 +1,8 @@
 
 import java.util.ArrayList;
 import java.util.Collection;
+import java.util.Collections;
+import java.util.stream.Collectors;
 
 
 
@@ -17,6 +19,7 @@ public class Demo02{
     int size =  col1.size();//查询集合中元素的个数
     boolean contains = col1.contains("12");//当前集合是否包含某个元素
     boolean containsAll= col1.containsAll(col2);//是否包含某个集合的所有元素
+
   }  
    
 }  

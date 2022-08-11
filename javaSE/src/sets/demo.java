@@ -5,7 +5,7 @@ import java.util.Set;
 import java.util.TreeSet;
 public class demo {
     public static void main(String[] args) {
-        new TreeSet<>();
+        
         Set set1 = new HashSet();
         Teacter t1 = new Teacter();
         Teacter t2 = new Teacter();
